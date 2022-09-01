@@ -1,0 +1,4 @@
+prose:
+  media: 'public/images'
+  rooturl: 'pages'
+  
