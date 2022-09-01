@@ -1,4 +1,4 @@
-import siteConfig from './site.config'
+import siteConfig from '../site.config'
 import { useRouter } from 'next/router'
 
 const YEAR = new Date().getFullYear()
