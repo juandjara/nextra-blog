@@ -81,3 +81,7 @@ img.next-image {
 .site-title span {
   margin-left: 16px;
 }
+
+html:not(.dark) .post-item .post-item-date {
+  color: #f97316; /* tw orange 500 */
+}
