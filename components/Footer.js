@@ -2,7 +2,7 @@ import siteConfig from '../site.config'
 import { useRouter } from 'next/router'
 
 const YEAR = new Date().getFullYear()
-const EDIT_URL_BASE = 'https://prose.io/#juandjara/nextra-blog/tree/master/pages'
+const EDIT_URL_BASE = 'https://prosecms.netlify.app/#juandjara/nextra-blog/tree/master/pages'
 const URL_WITH_EDIT = ['/', '/posts', '/projects']
 
 export default function Footer() {
