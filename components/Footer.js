@@ -1,23 +1,14 @@
 import siteConfig from '../site.config'
-import { useRouter } from 'next/router'
 
 const YEAR = new Date().getFullYear()
-const EDIT_URL_BASE = 'https://prosecms.netlify.app/#juandjara/nextra-blog/tree/master/pages'
-const URL_WITH_EDIT = ['/', '/posts', '/projects']
+const EDIT_URL = 'https://prosecms.netlify.app/#juandjara/nextra-blog/tree/master/pages'
 
 export default function Footer() {
-  const router = useRouter()
-  const firstSegment = router.pathname.split('/').slice(0, 2).join('/')
-  const hasEdit = URL_WITH_EDIT.indexOf(firstSegment) !== -1
-  const editURL = `${EDIT_URL_BASE}${firstSegment}`
-
   return (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © {siteConfig.name}.
       <a href="/feed.xml">RSS</a>
-      {hasEdit && (
-        <a style={{ paddingRight: 8 }} href={editURL}>Edit</a>
-      )}
+      <a style={{ paddingRight: 8 }} href={EDIT_URL}>Edit</a>
       <style jsx>{`
         a {
           float: right;
