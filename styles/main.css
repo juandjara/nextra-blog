@@ -24,11 +24,6 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
-  background-color: #ecfeff; /* tw cyan 100 */
-}
-
-.dark body {
-  background-color: #164e63; /* tw cyan 900 */
 }
 
 b,
@@ -62,12 +57,26 @@ img.next-image {
   margin: 0;
 }
 
-.prose a {
-  color: #f97316; /* tw orange 500 */
+html {
+  --bg-color: #ecfeff;
+  --link-color: #f97316;
 }
 
-.dark .dark\:prose-dark a {
-  color: #fed7aa; /* tw orange 200 */
+html.dark {
+  --bg-color: #164e63;
+  --link-color: #fed7aa;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.prose a, .dark .dark\:prose-dark a {
+  color: var(--link-color);
+}
+
+html:not(.dark) .post-item .post-item-date {
+  color: #f97316; /* tw orange 500 */
 }
 
 .nav-line .nav-link {
@@ -80,8 +89,4 @@ img.next-image {
 
 .site-title span {
   margin-left: 16px;
-}
-
-html:not(.dark) .post-item .post-item-date {
-  color: #f97316; /* tw orange 500 */
 }

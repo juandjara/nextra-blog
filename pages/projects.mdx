@@ -1,8 +1,16 @@
 ---
-type: posts
+type: page
 title: Proyectos
-date: 2022-09-05T00:00:00.000Z
 published: true
 ---
+import ProjectList from '../components/ProjectList'
+import Image from 'next/image'
+
+<h1 className="flex items-center site-title">
+  <Image src="/images/avatar.jpeg" width={60} height={60} />
+  <span>Proyectos</span>
+</h1>
+
 Estos son mis proyectos. Algunos de ellos, como Guardianes del Rol, intentan cubrir una necesidad real de una comunidad, pero gran parte los uso como excusa para experimentar con nuevas tecnologías. Es mi forma preferida de aprender algo en ese sentido. 
 
+<ProjectList />
