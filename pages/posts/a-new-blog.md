@@ -1,4 +1,6 @@
-# A new Blog
+---
+title: A new Blog
+---
 
 Despues de mucho tiempo, unos 4 años, por fin he encontrado una combinación de tecnologías con la que estoy cómodo para montar un blog personal en el que escribir pequeños articulos. Hablaré mayoritariamente sobre tecnologia, las cosas que voy construyendo y descubriendo, pero puede que incluya algun que otro tema más personal.
 
