@@ -8,7 +8,7 @@ export default function Footer() {
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © {siteConfig.name}.
       <a href="/feed.xml">RSS</a>
-      <a style={{ paddingRight: 8 }} href={EDIT_URL}>Edit</a>
+      <a target="_blank" rel="noreferrer" style={{ paddingRight: 8 }} href={EDIT_URL}>Edit</a>
       <style jsx>{`
         a {
           float: right;
