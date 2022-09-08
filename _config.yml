@@ -2,6 +2,9 @@
 title: Nextra Blog
 timezone: UTC
 collections:
+  pages-posts:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
