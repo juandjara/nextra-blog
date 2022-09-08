@@ -1,10 +1,9 @@
 ---
 title: Markdown Examples
-date: 2021/3/19
+date: 2021-03-19 00:00:00 Z
 description: View examples of all possible Markdown options.
 tag: web development
 author: You
-published: true
 ---
 
 # Markdown Examples
