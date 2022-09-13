@@ -1,3 +1,7 @@
+---
+title: A Second Light
+tag: open source
+---
 
 Si, he empezado a hacer un CMS basado en prose y en cosas. Ha ocurrido. Bueno, o estaba ocurriendo hasta que me rompí el codo cayéndome de un patinete eléctrico y ahora no puedo escribir código. Voy a estar así dos semanas mínimo según el médico.
 
