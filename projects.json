@@ -1,5 +1,10 @@
 [
   {
+    "title": "Homelab",
+    "description": "Las aplicaciones de un  pequeño servidor montado en una estanteria de mi casa, accesible desde todo internet, enfocado principalmente en ser un centro multimedia",
+    "link": "https://apps.fuken.xyz"
+  },
+  {
     "title": "Palomitas",
     "description":"Series en streaming por torrents",
     "image": "https://palomitas.fuken.xyz/palomitas-outline.png",
